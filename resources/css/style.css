@@ -121,3 +121,11 @@ flex-direction: column;
 justify-content: center;
 }
 /** End of Location Section **/
+
+/** Contact Section **/
+.contact{
+background-color: #000;
+height: 200px;
+margin-top: -70px;
+}
+/** End of Contact Section **/
