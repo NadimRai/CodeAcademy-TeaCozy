@@ -48,7 +48,22 @@ color: seashell;
 /** Mission Section **/
 .mission{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     height: 700px;
+    
+}
+.mission-text{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    margin:0 auto;   
+}
+
+.mission-text h2,h4{
+    margin:0;
+    padding: 10px;
 }
 /** End of Mission Section **/
