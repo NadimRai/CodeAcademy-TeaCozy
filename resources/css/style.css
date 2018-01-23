@@ -77,21 +77,47 @@ margin:0 auto;
 padding: 70px;
 }
 
-.tea-images{
+.tea-container{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
 
-.image img{
+.tea-image img{
 width: 300px;
 height: 200px;
 margin: 15px;
 }
 
-.image span{
+.tea-image span{
 display: block;
 padding: 5px;
 font-weight: bold;
 }
 /** End of Tea Section **/
+
+/** Location Section **/
+.location{
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height: 500px;
+padding: 70px;
+}
+
+.location-container{
+display: flex;
+justify-content: space-around;
+padding-top: 5px;
+width: 1050px;
+margin: 0 auto;
+}
+
+.location-address{
+background-color: #000;
+width: 300px;
+opacity: 1;
+margin: 5px 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+/** End of Location Section **/
